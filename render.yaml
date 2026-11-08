@@ -2,6 +2,7 @@ services:
 - type: pserv
   name: mysql
   plan: starter
+  region: frankfurt
   env: docker
   autoDeploy: false
   disk:
